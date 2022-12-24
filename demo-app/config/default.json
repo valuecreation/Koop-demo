@@ -1,0 +1,18 @@
+{
+  "koopOutputVectorTiles": {
+    "geojsonVT": {
+      "maxZoom": 14,
+      "tolerance": 3,
+      "extent": 4096,
+      "buffer": 64,
+      "debug": 0,
+      "lineMetrics": false,
+      "promoteId": null,
+      "generateId": false,
+      "indexMaxZoom": 5,
+      "indexMaxPoints": 100000
+    },
+    "maxAge": 3600
+  },
+  "port": 8080
+}

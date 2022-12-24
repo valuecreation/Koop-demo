@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "npmClient": "npm",
+  "type": "app",
+  "plugins": [
+    {
+      "type": "provider",
+      "name": "@koopjs/provider-github",
+      "srcPath": "provider-github",
+      "local": false
+    },
+    {
+      "type": "output",
+      "name": "@koopjs/output-vector-tiles",
+      "srcPath": "output-vector-tiles",
+      "local": false
+    },
+    {
+      "type": "provider",
+      "name": "@koopjs/provider-file-geojson",
+      "srcPath": "provider-file-geojson",
+      "local": false
+    }
+  ]
+}
